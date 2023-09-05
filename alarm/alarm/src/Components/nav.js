@@ -1,10 +1,12 @@
 import React from 'react';
 import './style/nav.css';
 
+import imgs from '../img/alarm_small.png';
+
 function Nav(){
     return(
         <nav className='title'>
-            Clock
+            <img src={imgs}/>
         </nav>
     );
 }

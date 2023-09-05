@@ -1,0 +1,23 @@
+.footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(190, 190, 190);
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+.child{
+    position: relative;
+    width:15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.childl{
+    width: 12%;
+}

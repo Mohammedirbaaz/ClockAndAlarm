@@ -54,3 +54,10 @@
     align-items: center;
     padding: 2%;
 }
+
+.timezone{
+    width: 100%;
+    overflow: auto;
+    height: 30px;
+    /* background-color: red; */
+}

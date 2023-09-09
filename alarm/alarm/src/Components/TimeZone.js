@@ -47,11 +47,11 @@ function TimeZone(){
                                 <div className='time-details'>
                                     <p className='time-realtime' >{time}</p>
                                     <p className='time-realtime' >{list.countryName}</p>
-                                    <p className='time-realtime'>{list.zoneName}</p>
+                                    <p className='time-realtime timezone' >{list.zoneName}</p>
                                 </div>
                             </div>);
                     })
-                }
+                } 
             </div>
 
             <Footer/>

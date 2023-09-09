@@ -1,0 +1,154 @@
+.add-cont
+{
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(95, 255, 154);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top:80%;
+    left: 70%;
+    z-index: 1;
+}
+.add-symbol
+{
+    color: white;
+    font-size: xxx-large;
+}
+.alarmcreate-cont
+{
+    position: fixed;
+    top:15%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 60vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    background-color: rgb(140, 245, 203);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+    display: none;
+
+}
+
+.alarm-time
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    min-width: 70%;
+    min-height: 15%;
+    margin: 1% 0%;
+}
+.alarm-dayset
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* background-color: rgb(121, 121, 213); */
+    min-width: 30%;
+    min-height: 15%;
+}
+.alarm-daysetchild
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0%;
+    /* background-color: pink; */
+}
+.inputs
+{
+    height: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding:1%;
+    margin: 1% 2%;
+}
+.alarm-time-child{
+    width: 30%;
+    /* background-color: gray; */
+    margin: 0% 1%;
+}
+.inputssubmit
+{
+    background-color: rgb(114, 96, 253);
+    color: white;
+    padding: 1% 2%;
+}
+
+.maindiv{
+    position: relative;
+    width: 58%;
+    min-height: 20vh;
+    /* background-color: rgb(198, 240, 255); */
+    margin: 5% 20% 5% 20%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.alarmdiv
+{
+    width: 40%;
+    height: 80px;
+    background-color: rgb(198, 240, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1% 0% 1% 0%;
+}
+
+.setdiv{
+    width: 100%;
+    height: 48%;
+    margin: 1% 0%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.toggleparent
+{
+    position: relative;
+    width: 15%;
+    height: 65%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    transition: all 0.5s ease;
+}
+.togglechild
+{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    /* padding: 2%; */
+}
